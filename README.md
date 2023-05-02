@@ -1,37 +1,7 @@
-# Assignment: Input/Output library in assembly
+# Input/Output library in assembly
 ---
 Лабораторная работа: библиотека ввода-вывода на Assembler
 
-
-Реализуйте библиотеку процедур, которые будут выполнять простые действия со строками, числами и их текстовыми представлениями.
-
-# Подготовка
-
-* Прочитайте первые две главы "Low-level programming: C, assembly and program execution".
-
-* Ознакомьтесь с [документацией на следующие инструкции](https://gitlab.se.ifmo.ru/programming-languages/cse-programming-languages-fall-2021/main/-/blob/main/docs/intel-manual.pdf).
-
-  - `xor`
-  - `jmp`, `ja` и другими командами условного перехода
-  - `cmp`
-  - `mov`
-  - `inc`, `dec`
-  - `add`, `imul`, `mul`, `sub`, `idiv`, `div`
-  - `neg`
-  - `call`, `ret`
-  - `push`, `pop`
-  
-  Документация &mdash; огромный документ. В просмотрщике PDF файлов найдите панель с оглавлением документа; там ищите второй том "Instruction Set Reference", где для каждой инструкции есть отдельная страничка.
-
-![](./img/outline.png) 
-
-
-* Прочитайте документацию на системный вызов `read` с помощью `man`. Его номер (который кладётся в `rax`) 0.
-
-# Написание
-
-- Впишите в `lib.inc` код вместо заглушек функций. По возможности переиспользуйте уже реализованные функции.
-- Используйте `test.py` чтобы протестировать работу. 
 
 
 Скрипт `test.py` будет генерировать исполняемый файл с тестом для каждой функции, вы можете отладить его; также см. Appendix A в "Low-level programming: C, assembly and program execution".
